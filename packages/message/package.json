@@ -1,0 +1,9 @@
+{
+  "name": "@xixi/message",
+  "version": "0.0.1",
+  "description": "XiUI Message Component",
+  "main": "index.js",
+  "author": "zuexixi",
+  "license": "MIT",
+  "dependencies": {}
+}

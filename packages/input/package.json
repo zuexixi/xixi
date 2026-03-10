@@ -1,0 +1,9 @@
+{
+  "name": "@xixi/input",
+  "version": "0.0.1",
+  "description": "XiUI Input Component",
+  "main": "index.js",
+  "author": "zuexixi",
+  "license": "MIT",
+  "dependencies": {}
+}
