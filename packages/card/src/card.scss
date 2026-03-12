@@ -1,0 +1,151 @@
+/* Card 卡片样式 */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.card.is-shadow {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #ebeef5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-header-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #303133;
+  margin: 0;
+}
+
+.card-image {
+  overflow: hidden;
+}
+
+.card-image .image img {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-footer {
+  padding: 16px 20px;
+  border-top: 1px solid #ebeef5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+/* Card variations */
+.card.is-primary {
+  border: 1px solid #409eff;
+}
+
+.card.is-success {
+  border: 1px solid #67c23a;
+}
+
+.card.is-warning {
+  border: 1px solid #e6a23c;
+}
+
+.card.is-danger {
+  border: 1px solid #f56c6c;
+}
+
+.card.is-info {
+  border: 1px solid #909399;
+}
+
+/* Image aspect ratios */
+.image {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image.is-16by9 {
+  padding-top: 56.25%;
+}
+
+.image.is-4by3 {
+  padding-top: 75%;
+}
+
+.image.is-1by1 {
+  padding-top: 100%;
+}
+
+.image.is-3by2 {
+  padding-top: 66.6666%;
+}
+
+.image.is-2by3 {
+  padding-top: 150%;
+}
+
+.image.is-3by4 {
+  padding-top: 133.3333%;
+}
+
+.image.is-9by16 {
+  padding-top: 177.7777%;
+}
+
+.image.is-2by1 {
+  padding-top: 50%;
+}
+
+.image.is-1by2 {
+  padding-top: 200%;
+}
+
+.image.is-square {
+  padding-top: 100%;
+}
+
+.image.is-square img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image.is-16by9 img,
+.image.is-4by3 img,
+.image.is-3by2 img,
+.image.is-2by3 img,
+.image.is-3by4 img,
+.image.is-9by16 img,
+.image.is-2by1 img,
+.image.is-1by2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

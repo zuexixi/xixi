@@ -1,0 +1,11 @@
+{
+  "name": "@xixi/dialog",
+  "version": "1.0.0",
+  "description": "Dialog component for xixi UI",
+  "main": "index.js",
+  "author": "xixi",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^2.6.0"
+  }
+}
